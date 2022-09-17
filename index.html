@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhati's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<style>
+    /* Css reset  */
+    body{
+        font-family: 'Baloo Bhai',cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url("abs-g7ace3249c_1920.jpg");
+        height: 1000px;
+        color: white;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+
+    }
+    .left img{
+        width: 75px;
+        filter: drop-shadow(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+
+    .mid{
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li :hover,.navbar li :active{
+        text-decoration: underline;
+        color: palevioletred;
+
+    }
+    .btn{
+        font-family: 'Baloo Bhai',cursive;
+        margin: 1px 9px;
+        color: white;
+        padding: 4px 14px;
+        background-color: black;
+        /* border: 2px solid yellow; */
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn :hover{
+        background-color: rgb(151, 51, 78);
+
+    }
+    .container{
+        /* border: 2px solid green; */
+        width: 35%;
+        margin: 32px 43px;
+        padding: 30px 24px;
+
+    }
+    .form input{
+        /* text-align: center */
+        display: block;
+        width: 250px;
+        padding: 5px;
+        margin: 5px 5px;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+    .container h3{
+        /* text-align: center; */
+    }
+    .container button{
+        /* centre your summit button  */
+        display: block;
+        width: 49%;
+        margin: 10px;
+        /* width: 23%; */
+        /* margin: auto; */
+    }
+    .btn{
+        position: sticky;
+        top: 3px;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="gym-g30cdbd9c0_1280.png" alt="">
+            <div>Bhati's fitness</div>
+        </div>
+        <!-- mid box for navigation  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"  class="active" id="box3">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Fitness Cal</a></li>
+            </ul>
+        </div>
+        <!-- right box for botton  -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>join the best gym in gr.noida</h3>
+        <form action="notaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Summit</button>
+        </form>
+    </div>
+</body>
+</html>
